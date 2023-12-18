@@ -1,0 +1,63 @@
+/* 로그인 페이지 */
+main {}
+main #login_frm {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+}
+main #login_frm fieldset {border:none;}
+main #login_frm fieldset .user_login {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+}
+main #login_frm fieldset .user_login .user_id {
+    width:450px; height:60px;
+    margin-bottom:10px; padding:15px;
+    border:1px solid #aaa;
+}
+main #login_frm fieldset .user_login .user_pw {
+    width:450px; height:60px;
+    margin-bottom:10px; padding:15px;
+    border:1px solid #aaa;
+}
+main #login_frm fieldset .user_login #login_btn {
+    background-color:#03c75a; color:#fff;
+    padding:20px 200px; margin-bottom:10px;
+    border:2px solid #03c75a;
+}
+main #login_frm fieldset .login_bottom {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+    border-bottom:1px solid #aaa;
+    padding-bottom:30px;
+}
+main #login_frm fieldset .login_bottom .user_save {}
+main #login_frm fieldset .login_bottom .user_save label {}
+main #login_frm fieldset .login_bottom .user_save input {
+    font-family:'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+    font-weight:600;
+}
+main #login_frm fieldset .login_bottom .user_save input::after {content:\f14a;}
+main #login_frm fieldset .login_bottom .bottom_right {text-align:right;}
+main #login_frm fieldset .login_bottom .bottom_right a {}
+main #login_frm fieldset .login_bottom .bottom_right a::after {
+    content:''; display:inline-block;
+    width:1px; height:12px; background-color:#aaa;
+    margin:0 4px 0 8px;
+}
+main #login_frm fieldset .login_bottom .bottom_right a:last-child::after {display:none;}
+main #login_frm fieldset .login_bottom .bottom_right a em {color:#03c75a}
+main .user_service {
+    display:flex; flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    margin:20px 0 40px;
+}
+main .user_service a {}
+main .user_service a::after {
+    content:''; display:inline-block;
+    width:1px; height:12px; background-color:#aaa;
+    margin:0 15px 0 14px;
+}
+main .user_service a:last-child::after {display:none;}

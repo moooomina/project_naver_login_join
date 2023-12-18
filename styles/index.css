@@ -1,0 +1,24 @@
+.index {
+    display:flex; height:350px;
+    justify-content:center;
+    align-items:center;
+}
+.index main {
+    background-color:#f1f1f1; border:1px solid #ddd;
+    width:350px; padding:15px;
+    display:flex; flex-flow:column nowrap;
+}
+.index main p {font-size:0.825rem;}
+.index main h1 {
+    margin:15px 0;
+    display:flex; flex-flow:row nowrap;
+    justify-content: center;
+}
+.index main h1 a {
+    background-color:#03c75a; padding:15px 50px; width:100%;
+    color:#fff;
+    text-align:center;
+}
+.index main .member {}
+.index main .member a {font-size:0.825rem;}
+.index main .member a:last-child {float:right;}

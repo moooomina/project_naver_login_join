@@ -1,0 +1,43 @@
+/* 회원가입 페이지 main */
+main {}
+main .agreement {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+}
+main .agreement .all_ag {margin-bottom:30px;}
+main .agreement .all_ag label {
+    font-size:0.9rem; border-bottom:1px solid #000;
+}
+main .agreement .ag_contents {margin:10px;}
+main .agreement .ag_contents label {}
+main .agreement .ag_contents label #ag_f {}
+main .agreement .ag_contents label em {color:#03c75a;}
+/* main .agreement .ag_contents label em:last-child {color:#999;} */
+main .agreement .ag_contents p {
+    display:inline-block; background-color:#fff;
+    color:#03c75a; padding:5px; font-size: 0.825rem;
+    border:1px solid #03c75a; margin-left:80px;
+}
+main .agreement .ag_contents textarea {
+    display:block; margin-top:20px; border:1px solid #999;
+    font-size:0.825rem;
+}
+main fieldset {border:none;}
+main fieldset .btn {
+    display:flex; flex-flow:row nowrap;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+main fieldset .btn #reset_btn {
+    background-color:#03c75a; color:#fff;
+    padding:18px 98px; border:none; margin:5px;
+}
+main fieldset .btn #join_btn {
+    background-color: #aaa; color:#fff;
+    padding:18px 98px; border:none; margin:5px;
+}
+main .bottom {margin-bottom:80px;}
+main .bottom p {text-align:center; font-size:0.825rem;}
+main .bottom a {font-size:0.825rem; border-bottom:1px solid #000;}

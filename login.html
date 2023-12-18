@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 | 로그인</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/common.css">
+</head>
+<body>
+    <header>
+        <select name="language">
+            <option value="ko">한국어</option>
+            <option value="en">English</option>
+        </select>
+        <a href="./index.html"><img src="./images/Naver_Logotype.png" alt="naver"></a>
+    </header>
+    <main>
+        <form action="#" method="post" id="login_frm">
+            <fieldset>
+                <legend class="skip">로그인양식</legend>
+                <section class="user_login">
+                    <input type="text" name="user_id" class="user_id" placeholder="아이디">
+                    <input type="password" name="user_pw" class="user_pw" placeholder="비밀번호">
+                    <button type="submit" id="login_btn">로그인</button>
+                </section>
+                <section class="login_bottom">
+                    <div class="user_save">
+                        <label><input type="checkbox" name="save" value="save_id">로그인 상태 유지</label>
+                    </div>
+                    <div class="bottom_right">
+                        <a href="#">IP보안<em>ON</em></a>
+                        <a href="#">일회용 로그인</a>
+                    </div>
+                </section>
+            </fieldset>
+        </form>
+        <div class="user_service">
+            <a href="#">아이디 찾기</a>
+            <a href="#">비밀번호 찾기</a>
+            <a href="./join.html">회원가입</a>
+        </div>
+    </main>
+    <footer>
+        <div class="f_nav">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a>
+            <a href="#">회원정보 고객센터</a>
+        </div>
+        <p>NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+    </footer>
+</body>

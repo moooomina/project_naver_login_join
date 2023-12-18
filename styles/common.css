@@ -1,0 +1,34 @@
+/* (로고 + footer 이용약관~Reserved) #03c75a, #fff, #f1f1f1, #aaa */
+body {background-color:#f1f1f1;}
+header {}
+header select {
+    margin-left:1000px; padding:3px 5px;
+    border:1px solid #aaa;
+}
+header select option {}
+header a {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+    margin:50px;
+}
+header a img {width:230px;}
+footer {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center;
+    align-items:center;
+}
+footer .f_nav {}
+footer .f_nav a {
+    font-size:0.75rem;
+}
+footer .f_nav a::after {
+    content:''; display:inline-block;
+    width:1px; height:10px; background-color:#aaa;
+    margin:0 4px 0 7px;
+}
+footer .f_nav a:last-child::after {display:none;}
+footer p {
+    font-size:0.75rem;
+    margin:10px 0 50px;
+}
